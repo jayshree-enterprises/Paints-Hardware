@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 768" role="img" aria-labelledby="logo-title logo-description">
+  <title id="logo-title">Jayshree Enterprises</title>
+  <desc id="logo-description">Orange J and E monogram with Jayshree Enterprises wordmark.</desc>
+  <g fill="#ff9933">
+    <text x="62" y="160" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" letter-spacing="0">JAYSHREE</text>
+    <text x="15" y="720" font-family="Georgia, 'Times New Roman', serif" font-size="700" font-weight="700">J</text>
+    <text x="340" y="460" font-family="Georgia, 'Times New Roman', serif" font-size="590" font-weight="700">E</text>
+    <text x="346" y="548" font-family="Arial, Helvetica, sans-serif" font-size="53" font-weight="600" letter-spacing="0">ENTERPRISES</text>
+  </g>
+</svg>
