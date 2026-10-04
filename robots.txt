@@ -18,7 +18,7 @@ Allow: /
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://jayshree-enterprises.github.io/Paints-Hardware/
+Sitemap: https://jayshree-enterprises.github.io/Paints-Hardware/sitemap.xml
 
 # Block bad bots
 User-agent: MJ12bot
