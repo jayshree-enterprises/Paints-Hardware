@@ -7,20 +7,20 @@
 const productsData = [
     {
         id: 1,
-        name: 'Asian Paints ACE Exterior Emulsion - 20 L',
+        name: 'Asian Paints Ace Exterior Emulsion',
         category: 'paints',
-        description: '100% acrylic based weather-resistant paint',
-        price: '₹450/L',
+        description: 'a water-based exterior wall finish with unique water resistance technology. It’s the perfect outdoor paint as it has a first-rate resistance to chalking, cracking, and weathering as opposed to cement paints.',
+        price: '₹301/L',
         stock: 'In Stock',
-        isNew: true,
+        isNew: false,
         image: 'assets/images/ace-exterior-emulsion.png'
     },
     {
         id: 2,
-        name: 'Asian Paints Apcolite Premium Interior Emulsion - 20 L',
+        name: 'Asian Paints Apcolite Premium Interior Emulsion',
         category: 'paints',
-        description: 'Durable matte finish for interior walls',
-        price: '₹380/L',
+        description: 'Persistent paint protection film and stain guard of this washable wall paint will keep you stress free and stain free.',
+        price: '₹489/L',
         stock: 'In Stock',
         isNew: false,
         image: 'assets/images/apcolite-premium-interior-emulsion.png'
@@ -37,7 +37,7 @@ const productsData = [
     },
     {
         id: 13,
-        name: 'Asian Paints ACE Sparc Exterior Emulsion - 20 L',
+        name: 'Asian Paints Ace Sparc Exterior Emulsion - 20 L',
         category: 'paints',
         description: 'Exterior emulsion paint',
         price: 'Contact for price',
