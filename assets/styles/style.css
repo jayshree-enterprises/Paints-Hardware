@@ -432,7 +432,7 @@ section {
 .hero-visual-panel {
     position: absolute;
     inset: 8% 2% 7% 7%;
-    background: #E9E8DE;
+    background: transparent;
     clip-path: polygon(7% 0, 100% 0, 94% 100%, 0 100%);
 }
 
