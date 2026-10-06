@@ -19,11 +19,11 @@
     <nav class="navbar" id="navbar">
         <div class="navbar-container">
             <div class="navbar-logo">
-                <img src="assets/images/jayshree-enterprises-logo.svg" alt="Jayshree Enterprises logo">
-                <span class="logo-text">Jayshree Enterprises</span>
+                <img src="assets/images/jayshree-enterprises-logo.svg" alt="Jayshree Enterprises brand logo">
+                <span class="logo-text">Jayshree Paints &amp; Hardware</span>
             </div>
 
-            <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="Toggle navigation menu" aria-controls="navMenu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -50,80 +50,31 @@
 
     <!-- ============== HERO SECTION ============== -->
     <section id="home" class="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1 class="hero-title">Transform Your Space with Premium Paint & Hardware Solutions</h1>
-            <p class="hero-subtitle">100% Genuine Products | Expert Advice | Custom Color Matching | Local Delivery Available</p>
-            <div class="hero-cta">
-                <a href="#products" class="btn btn-primary">Browse Our Catalog</a>
-                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=24.5048918%2C83.0225883" target="_blank" class="btn btn-secondary">📍 Get Directions</a>
+        <div class="container hero-layout">
+            <div class="hero-content">
+                <p class="hero-eyebrow">Authorized Asian Paints Dealer · Chopan</p>
+                <h1 class="hero-title">Jayshree Paints &amp; Hardware</h1>
+                <p class="hero-subtitle">Authorized Asian Paints Dealer &amp; Quality Hardware in Chopan.</p>
+                <div class="hero-cta">
+                    <a href="#products" class="btn btn-primary">Browse Catalog</a>
+                    <a href="https://api.whatsapp.com/send?phone=919953787727&amp;text=Hi%20Jayshree%20Paints!%20I%20have%20a%20product%20inquiry." target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Chat on WhatsApp</a>
+                </div>
             </div>
-        </div>
-        <div class="hero-image-placeholder">
-            <div class="image-stack">
-                <div class="image-item" style="background: linear-gradient(135deg, #FF6B6B, #FFA500);"></div>
-                <div class="image-item" style="background: linear-gradient(135deg, #4ECDC4, #44A3C2);"></div>
-                <div class="image-item" style="background: linear-gradient(135deg, #FFD93D, #6BCB77);"></div>
+            <div class="hero-visual" aria-label="Popular Asian Paints products">
+                <div class="hero-visual-panel"></div>
+                <img class="hero-product hero-product-back" src="assets/images/asian-paints-apex-ultima-protek.png" alt="Asian Paints Apex Ultima Protek exterior paint">
+                <img class="hero-product hero-product-front" src="assets/images/asian-paints-royale-luxury-emulsion.png" alt="Asian Paints Royale Luxury Emulsion interior paint">
             </div>
         </div>
     </section>
 
-    <!-- ============== ABOUT US SECTION ============== -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2>About Jayshree Paints & Hardware</h2>
-                <p>Your trusted partner for quality and reliability</p>
-            </div>
-
-            <div class="about-grid">
-                <div class="about-content">
-                    <h3>Our Story</h3>
-                    <p>Established in January 2025 in Preetnagar, Chopan, Jayshree Enterprises is dedicated to supplying genuine, high-quality paints, waterproofing solutions, and professional finishing tools to homeowners, contractors, and local painters across Sonbhadra.</p>
-                    <p>As an authorized dealer of Asian Paints and leading construction consumables, we provide transparent pricing, direct contractor support, and specialized tools—from precision writing brushes to heavy-duty surface preparation equipment.</p>
-                    
-                    <div class="trust-markers">
-                        <div class="trust-item">
-                            <span class="icon">✓</span>
-                            <h4>100% Genuine Products</h4>
-                            <p>Only authentic brands and verified suppliers</p>
-                        </div>
-                        <div class="trust-item">
-                            <span class="icon">✓</span>
-                            <h4>Expert Consultation</h4>
-                            <p>Professional advice from experienced staff</p>
-                        </div>
-                        <div class="trust-item">
-                            <span class="icon">✓</span>
-                            <h4>Fast Local Delivery</h4>
-                            <p>Same-day delivery service available</p>
-                        </div>
-                        <div class="trust-item">
-                            <span class="icon">✓</span>
-                            <h4>Custom Color Matching</h4>
-                            <p>Professional color consultation and matching</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="about-stats">
-                    <div class="stat-card">
-                        <h4>100% Genuine</h4>
-                    </div>
-                    <div class="stat-card">
-                        <h4>500+</h4>
-                        <p>Happy Customers</p>
-                    </div>
-                    <div class="stat-card">
-                        <h4>250+</h4>
-                        <p>Product Variants</p>
-                    </div>
-                    <div class="stat-card">
-                        <h4>Fast</h4>
-                        <p>WhatsApp Support</p>
-                    </div>
-                </div>
-            </div>
+    <!-- ============== TRUST & SERVICE STRIP ============== -->
+    <section id="about" class="trust-strip" aria-label="Shop benefits">
+        <div class="container trust-strip-inner">
+            <div class="trust-badge"><span aria-hidden="true">✓</span><strong>100% Genuine Paints</strong></div>
+            <div class="trust-badge"><span aria-hidden="true">✓</span><strong>Expert Consultation</strong></div>
+            <div class="trust-badge"><span aria-hidden="true">✓</span><strong>Custom Color Mixing</strong></div>
+            <div class="trust-badge"><span aria-hidden="true">✓</span><strong>Quick Local Delivery</strong></div>
         </div>
     </section>
 
@@ -131,20 +82,67 @@
     <section id="products" class="products">
         <div class="container">
             <div class="section-header">
-                <h2>Our Products & Services</h2>
-                <p>Explore our comprehensive range of premium quality items</p>
+                <p class="section-eyebrow">Find the right finish</p>
+                <h2>Shop by project</h2>
+                <p>Start with a category, then compare product sizes and MRPs.</p>
             </div>
 
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-filter="all">All Products</button>
-                <button class="filter-btn" data-filter="paints">Paints</button>
-                <button class="filter-btn" data-filter="hardware">Hardware</button>
-                <button class="filter-btn" data-filter="materials">Building Materials</button>
-                <button class="filter-btn" data-filter="tools">Tools & Accessories</button>
+            <div class="category-grid" aria-label="Product categories">
+                <button class="category-card category-card-all active" type="button" data-product-group="all" aria-pressed="true">
+                    <span class="category-visual category-visual-all"><img src="assets/images/asian-paints-ace-exterior-emulsion.png" alt="" loading="lazy"></span>
+                    <span class="category-card-copy"><span class="category-kicker">Paint, primers and more</span><strong>All Products</strong><span class="category-link">Browse everything <span aria-hidden="true">↗</span></span></span>
+                </button>
+                <button class="category-card" type="button" data-product-group="interior-luxury" aria-pressed="false">
+                    <span class="category-visual"><img src="assets/images/asian-paints-royale-luxury-emulsion.png" alt="" loading="lazy"></span>
+                    <span class="category-card-copy"><span class="category-kicker">Soft sheen to rich matt</span><strong>Interior Luxury</strong><span class="category-link">Explore range <span aria-hidden="true">↗</span></span></span>
+                </button>
+                <button class="category-card" type="button" data-product-group="exterior-weatherproof" aria-pressed="false">
+                    <span class="category-visual category-visual-terracotta"><img src="assets/images/asian-paints-apex-ultima-protek.png" alt="" loading="lazy"></span>
+                    <span class="category-card-copy"><span class="category-kicker">Built for changing weather</span><strong>Exterior Weatherproof</strong><span class="category-link">Explore range <span aria-hidden="true">↗</span></span></span>
+                </button>
+                <button class="category-card" type="button" data-product-group="waterproofing" aria-pressed="false">
+                    <span class="category-visual category-visual-teal"><img src="assets/images/asian-paints-smartcare-damp-sheath-interior.png" alt="" loading="lazy"></span>
+                    <span class="category-card-copy"><span class="category-kicker">Protect surfaces from damp</span><strong>Waterproofing Solutions</strong><span class="category-link">Explore range <span aria-hidden="true">↗</span></span></span>
+                </button>
+                <button class="category-card" type="button" data-product-group="enamels-finishes" aria-pressed="false">
+                    <span class="category-visual category-visual-gold"><img src="assets/images/asian-paints-apcolite-premium-gloss-enamel.png" alt="" loading="lazy"></span>
+                    <span class="category-card-copy"><span class="category-kicker">For wood and metal surfaces</span><strong>Enamels &amp; Finishes</strong><span class="category-link">Explore range <span aria-hidden="true">↗</span></span></span>
+                </button>
+                <button class="category-card category-card-tools" type="button" data-product-group="hardware-tools" aria-pressed="false">
+                    <span class="category-visual category-visual-tools" aria-hidden="true"><span>H&amp;T</span></span>
+                    <span class="category-card-copy"><span class="category-kicker">Ask us about current stock</span><strong>Hardware &amp; Tools</strong><span class="category-link">Explore range <span aria-hidden="true">↗</span></span></span>
+                </button>
+            </div>
+
+            <div class="catalog-toolbar" id="catalogResults">
+                <div class="catalog-heading">
+                    <p class="section-eyebrow" id="catalogEyebrow">Staff picks</p>
+                    <h3 id="catalogTitle">Featured products</h3>
+                </div>
+                <button class="catalog-toggle" type="button" id="catalogToggle" aria-expanded="false">View Full 74-Product Catalog</button>
+            </div>
+
+            <div class="product-filters" aria-label="Refine product list">
+                <label for="productSubcategoryFilter">Type</label>
+                <select id="productSubcategoryFilter">
+                    <option value="all">All types</option>
+                </select>
+                <label for="packSizeFilter">Pack size</label>
+                <select id="packSizeFilter">
+                    <option value="all">All sizes</option>
+                    <option value="1 L">1 L</option>
+                    <option value="4 L">4 L</option>
+                    <option value="10 L">10 L</option>
+                    <option value="20 L">20 L</option>
+                </select>
             </div>
 
             <div class="products-grid" id="productsGrid">
                 <!-- Products will be rendered by JavaScript -->
+            </div>
+            <div class="catalog-empty" id="catalogEmpty" hidden>
+                <p>We’re updating this range online. Contact the shop for current hardware and tool availability.</p>
+                <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=919953787727&amp;text=Hi%20Jayshree%20Paints!%20Please%20share%20your%20hardware%20and%20tools%20availability." target="_blank" rel="noopener noreferrer">Ask on WhatsApp</a>
             </div>
         </div>
     </section>
@@ -161,6 +159,13 @@
                 <div class="timings-card">
                     <h3>⏰ Weekly Operating Hours</h3>
                     <table class="hours-table">
+                        <caption class="visually-hidden">Weekly opening hours</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Day</th>
+                                <th scope="col">Opening hours</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
                                 <td>Monday</td>
@@ -307,10 +312,13 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>Jayshree Paints & Hardware</h4>
+                    <a class="footer-brand" href="#home" aria-label="Jayshree Paints & Hardware home">
+                        <img src="assets/images/jayshree-enterprises-logo.svg" alt="">
+                        <span>Jayshree Paints &amp; Hardware</span>
+                    </a>
                     <p>Premium paints, hardware, and building materials for all your needs.</p>
                     <div class="social-links">
-                        <a href="https://www.facebook.com/profile.php?id=61594986606120" target="_blank" title="Facebook">f</a>
+                        <a href="https://www.facebook.com/jayshreepaints" target="_blank" title="Facebook">f</a>
                         <a href="https://www.instagram.com/jayshreepaints" target="_blank" title="Instagram">📷</a>
                         <a href="https://api.whatsapp.com/send?phone=919953787727" target="_blank" title="WhatsApp">💬</a>
                     </div>
@@ -331,7 +339,7 @@
                     <ul>
                         <li><a href="tel:+919953787727">Call Us</a></li>
                         <li><a href="https://api.whatsapp.com/send?phone=919953787727" target="_blank">WhatsApp</a></li>
-                        <li><a href="mailto:je264003@gmail.com">Email</a></li>
+                        <li><a href="mailto:J264003@gmail.com">Email</a></li>
                     </ul>
                 </div>
 
@@ -364,3 +372,4 @@
     <script src="assets/js/script.js"></script>
 </body>
 </html>
+>
